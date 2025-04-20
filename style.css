@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero {
+    background: linear-gradient(to left, #3a1c71, #d76d77, #ffaf7b);
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 42px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1);
+  }
+  
+  section {
+    padding: 50px 0;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skills li {
+    background-color:  #eee ;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  
